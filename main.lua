@@ -1,8 +1,13 @@
 --[[
 	GitHub Repository loader (FOR ROBLOX)
-	This all goes based off the github API, using trees (so you don't get rate limited.)
+	This all goes based off the github API
 	
 	Author: https://github.com/dann0001
+
+	LIMITATIONS:
+	- 200,000 Character max per .lua file (ROBLOX Limitation for setting strings, which includes Source as well)
+		- https://create.roblox.com/docs/reference/engine/classes/StringValue
+	- GitHub may not load massive repo's due to rate limit, however this was never tested.
 ]]--
 
 
